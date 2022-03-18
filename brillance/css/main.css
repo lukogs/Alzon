@@ -677,6 +677,19 @@ input.search-form:hover {
   margin-right: 20px;
 }
 
+.typing-wrap {
+  padding: auto;
+  background: #c52d2f;
+  border-radius: 4px;
+  margin: 0 0 40px;
+}
+
+.typing-wrap h3 {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
 #middle {
   background: #f2f2f2;
 }
@@ -2526,7 +2539,13 @@ shortcodes page css
 }
 
 
+/* Content spaces */
+.align-center{
+  display: flex; 
+  align-items: center;
+}
 
-
-
-
+.justify-content{
+  display: flex;
+  justify-content: center;
+}

@@ -13,6 +13,7 @@
 }
 .fa {
   display: inline-block;
+  
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
@@ -227,6 +228,7 @@
 }
 .fa-check:before {
   content: "\f00c";
+  background-color: #c52d2f;
 }
 .fa-times:before {
   content: "\f00d";
